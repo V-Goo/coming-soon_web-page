@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Abel';
+  src: url('../fonts/abel_rus.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 { margin: 0; padding: 0; }
+
+:root {
+  --color-bg: #000000;
+  --color-fg: #ffffff;
+  --color-text: var(--color-fg);
+  font-size: 0.845vw;
+}
+
+.page{
+  display: flex;
+  background-color: var(--color-bg);
+  height: 100vh;
+  padding: 1rem;
+}
+
+.container{
+  display: grid;
+  grid-template-areas: "comingsoon";
+  place-items: center;
+  margin: auto;
+  /* display: flex; */
+width: 100%;
+  /* margin: 1rem; */
+  max-width: 1300px;
+  /* max-height: 100vh; */
+  height: 100%;
+  /* todo Не забыть удалить */
+  outline: olivedrab dashed 1px;
+
+
+}
+.container > *{
+  grid-area: comingsoon;
+}
+.vignettes{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #66339955;
+  z-index: 5;
+}
+.rect-out{
+  /* padding: 0.5rem; */
+  width: 40%;
+  height: 30%;
+  /* background-color: var(--color-bg); */
+  border: var(--color-fg) solid 1px;
+  /* border-radius: 0.5rem; */
+  z-index: 10;
+}
+.rect-in{
+  background-color: var(--color-bg);
+  padding: 1rem;
+border: var(--color-fg) solid 1px;
+z-index: 15;
+transform: translateY(2rem);
+}
+.title{
+  font-family: monospace;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.3rem;
+  line-height: 2;
+  letter-spacing: 0.3ch;
+  color: var(--color-text);
+  text-transform: uppercase;
+}

@@ -26,7 +26,7 @@
     src: url('../fonts/montserrat-400.woff2') format('woff2'),
          url('../fonts/montserrat-400.woff') format('woff');
   }
-  @font-face {
+  @font-face {css copy
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -99,8 +99,8 @@ ul {
 }
 
 /* *Common Styles */
-:root {
-  --color-mine: #333333;
+  :root {
+    --color-mine: #333333;
   --color-mine-invers: #cacaca ;
   --color-brand: #FF9900;
   --color-brand-text: #ffffff;
