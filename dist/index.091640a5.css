@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Abel';
-  src: url('../fonts/abel_rus.woff2') format('woff2');
+  src: url('abel_rus.72dd1d7b.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
 }
@@ -11,23 +11,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 h1 { margin: 0; padding: 0; }
-
 :root {
   --color-bg: #000000;
   --color-fg: #ffffff;
   --color-text: var(--color-fg);
   font-size: 0.845vw;
 }
-
 .page{
   display: flex;
   background-color: var(--color-bg);
   height: 100vh;
   padding: 1rem;
 }
-
 .container{
   display: grid;
   grid-template-areas: "comingsoon";
@@ -117,7 +113,6 @@ h1 { margin: 0; padding: 0; }
 border: var(--color-fg) solid 1px;
 z-index: 10;
 }
-
 /* * Подогнать шрифт. Размер не следует за контейнером, а следит за вьюпортом, что не красиво */
 .title{
   margin: auto;
@@ -130,3 +125,5 @@ z-index: 10;
   color: var(--color-text);
   text-transform: uppercase;
 }
+
+/*# sourceMappingURL=index.091640a5.css.map */

@@ -26,7 +26,7 @@
     src: url('../fonts/montserrat-400.woff2') format('woff2'),
          url('../fonts/montserrat-400.woff') format('woff');
   }
-  @font-face {css copy
+  @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
