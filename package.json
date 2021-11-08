@@ -3,6 +3,9 @@
     "g": "^2.0.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "editorconfig": "^0.15.3",
+    "gulp": "^4.0.2",
     "stylelint": "^14.0.1",
     "stylelint-config-htmlacademy": "^0.1.10",
     "stylelint-config-recommended": "^6.0.0",
